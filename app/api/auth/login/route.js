@@ -24,15 +24,12 @@ export async function POST(req){
 
         // 2. Compare Password
 
-        /*const isMatch = await bcrypt.compare(password, user.password);
+        const isMatch = await bcrypt.compare(password, user.password);
 
         if(!isMatch){
             return NextResponse.json({error: "Invalid email or password 2"}, {status: 401});
-        }*/
-
-        if (user.password !== password) {
-            return NextResponse.json({ error: "Invalid email or password (plaintext check)" }, { status: 401 });
         }
+
    
         // 3. Generate Token
 

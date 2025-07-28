@@ -11,15 +11,7 @@ export default function ContactPage(){
                 <li><a href="https://github.com/dinrajkdinesh" className="text-blue-500 hover:underline">GitHub</a></li>
             </ul>
             <p className="mt-2">We look forward to hearing from you!</p>
-            <p className="mt-2">Thank you for visiting our blog!</p>
-            <p className="mt-2">Best regards,</p>
-            <p className="mt-2">The Next.js Blog Team</p>
-            <p className="mt-2">Have a great day!</p>
-            <p className="mt-2">Stay tuned for more updates!</p>
-            <p className="mt-2">Your feedback is important to us!</p>
-            <p className="mt-2">We appreciate your support!</p>
-            <p className="mt-2">Thank you for being a part of our community!</p>
-            <p className="mt-2">We hope to hear from you soon!</p>
+
         </>
 
     )
